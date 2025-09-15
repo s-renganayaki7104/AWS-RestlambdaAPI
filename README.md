@@ -1,26 +1,24 @@
+## Build a REST API with AWS Lambda & API Gateway  
 
-##Build a REST API with AWS Lambda & API Gateway  
-
----
 
 ### Purpose
 This project demonstrates how to build a serverless **CRUD (Create, Read, Update, Delete)** REST API using **AWS Lambda functions** and **API Gateway**.
 
----
+
 
 ### Architecture Overview
 - **API Gateway**: Routes incoming HTTP requests to the correct Lambda functions  
 - **AWS Lambda**: Contains the business logic for CRUD operations  
 - **Data Store**: Defines (e.g. DynamoDB, S3, RDS) for storing data  
 
----
+
 
 ### Prerequisites
 - AWS account with permissions to create Lambda, API Gateway, IAM roles, and a database  
 - AWS CLI or AWS Management Console access  
 - Node.js (or relevant runtime) installed  
 
----
+
 
 ### ⚙️ Setup & Deployment  
 
@@ -44,7 +42,7 @@ Create a role with permissions for Lambda execution and access to your data stor
 - Deploy the API to a named stage (e.g. `dev` or `prod`)  
 - Obtain the invoke URL for live testing  
 
----
+
 
 ### Usage  
 
